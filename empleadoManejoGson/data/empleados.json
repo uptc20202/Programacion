@@ -1,0 +1,30 @@
+{
+  "employees":[
+    {
+      "id":10,
+      "name":"Liliana",
+      "adress": {
+        "street":"calle 11",
+        "city":"Tunja",
+        "zipcode":12315
+      },
+      "phoneNumbers": [1561651,1561665]
+    },
+    {"id":11,
+      "name":"Juan",
+      "adress": {
+        "street":"calle 21",
+        "city":"Tunja",
+        "zipcode":151
+      },
+      "phoneNumbers": [654654,4495]},
+       {"id":12,
+      "name":"Pilar",
+      "adress": {
+        "street":"calle 45",
+        "city":"Tunja",
+        "zipcode":156
+      },
+      "phoneNumbers": [5465,54665]}
+    ]
+}

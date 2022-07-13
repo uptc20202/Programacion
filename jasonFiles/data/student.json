@@ -1,0 +1,11 @@
+{
+	"code" : 202212,
+	"name" : "Juan",
+	"lastName" : "Camargo",
+	"grades" : {3.0,2.5,4.5},
+	"birthDate" : {
+		"year" : 1995,
+		"month" : 8,
+		"day" : 11
+		} 	
+}
