@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libros>
+<libro id="1">
+<titulo>Programacion en Java</titulo>
+<autor>Luis Joyanes</autor>
+<anio>2012</anio>
+</libro>
+<libro id="2">
+<titulo>Programacion en C</titulo>
+<autor>Enrique Zahonero</autor>
+<anio>2010</anio>
+</libro>
+</libros>

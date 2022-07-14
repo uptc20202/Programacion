@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<words>
+	<word id="abundante">
+		<wordTitle>abundante</wordTitle>
+		<synonym>mucho</synonym>
+		<synonym>copioso</synonym>
+		<synonym>garrafal</synonym>
+	</word>
+	<word id="1acabar">
+		<wordTitle>acabar</wordTitle>
+		<synonym>terminar</synonym>
+		<synonym>finalizar</synonym>
+		<synonym>agotar</synonym>
+	</word>
+</words>

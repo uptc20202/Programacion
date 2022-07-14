@@ -1,0 +1,140 @@
+Programación I
+==============
+programacion  ?
+OOP --> 
+
+Metodologia basica de desarrollo.
+1. Definición del problema.
+   narrativa ¿de que se trata el problema?
+   diagrama de caja negra:
+
+   Inputs ===>  algorit/app ===> outputs
+   
+   numero --->  algo ----> longitud
+                           si/no hya digitos repetidos
+                           si/no el numero valido 
+                     
+  2 numeros ---> algort --> validos
+                             # picas
+                             # fijas
+--------------------------------------------------------
+2.  Analisis. ---> bases/  estrategia de solucion 
+  
+    numero  ¿calcular la longitud del numero (digitos)?
+
+             numero entero --> sitema decimal posicional ( unidades, decenas, centanaes ...)
+
+                12345 = 5*10⁰ + 4 * 10¹ + 3 * 10² + 2 * 10³ + 1 * 10⁴
+ 
+                12345 / 10 = 1234
+                 1234 / 10 = 123
+                 123 / 10 = 12
+                  12 / 10 = 1
+                    1 / 10 = 0  
+
+           ¿extraer un digito?
+       ....
+ 
+           ¿comparacion de digitos de numeros?
+        ...  
+--------------------------------------------------------
+3. Diseñar casos de prueba.
+   Entradas   ---> salida esperada
+   12345  ---> 5
+       0 ----> 1
+       1 ----> 1
+      10  ---> 2
+       9  ---> 1
+// hay digitos repetidos
+   1111    --> true
+   1234    --> false
+  10981    --> true   
+// picas
+   1234 4321 ---> 4
+   1234 9087 -->  0
+// fijas
+   1234 1234 --> 4
+   1234 7894 --> 1
+   4321 4987 --> 1
+-------------------------------
+4. diseño ... OOP.
+   * Abstraccion
+   * Encapsulamiento
+   * Herencia
+   * Polimorfismo
+   * modularacion.**
+
+
+   Identificar objetos = sustantivos
+   numero --> Numero (metodos, atributos)
+              - valor : int
+              +int deteminar longitud()
+              +bool digitos dipliacados()
+              +bool valido()
+
+   Intento ---> intento
+              -numero1 : Numero
+              -numero2 : Numero
+              +int determinar picas()
+              +int determinar fijar()    
+ Juego 
+      -intento
+      -int Cantidad digitos
+
+   ===> UML == Diagrama de clases --ASOCIAN
+ 
+ detreminar la longitud de un numero.
+  diseñar el algoritmo -> diagram flujo, pseudocodigo, diagrama procesos, , diagar ...
+    
+   inicializar contador en 0
+   mientras numero sea mayor que cero
+      divido numero entre 10
+      incremeto contador
+   retorne es contador
+
+  // Albeiro
+  convetir el numero a cadena de caracres y extraer su longitud en caracteres
+
+-----------------------------
+5. codificar---> lenguaje de programacion --> OO --> java
+   buenas y mejores practicas
+   documentar codigo : 
+   clases  // autor, descripcion de laclase , fecha 
+   metodos //  apra que sirev, cuales son parametros, cual es retorna
+ 
+---------------------------  
+6. pruebas
+    * unitarias.
+    * funcionales
+    * itegracion
+    carga
+--------------------------
+7. implemntacion 
+--------------------------
+documentado
+anexos
+  Glosario de terminos
+--------------------------------------------------
+tarea:
+   1. Uml --> diagramas de clase.
+   2. OOP
+      propiedades, caractersiticas , pilares
+      ventajas./ desventajas.
+   3. Java.
+   4. herramientas
+      IDE ¿?
+      UML --> diagramas de clase 
+   
+Tarea.
+   version 3.
+   oop + requisitos + documentar
+
+
+
+----------------------------
+            
+
+
+
+
+  
